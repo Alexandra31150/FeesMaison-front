@@ -1,6 +1,7 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import '../CSS/Footer.css';
+import PageCreatrice from './PageCreatrice';
 
 function Footer() {
   return (
@@ -10,7 +11,9 @@ function Footer() {
         Made with ♡ by Alexandra P.
         </li>
         <li className="espace-crea"> 
-          Espace créatrice
+        <Link to="espace-creatrice" className="link-nav" style={{ textDecoration: 'none' }}>
+          <a href={PageCreatrice}>Espace créatrice</a>
+        </Link>
         </li>
       </ul>
     </div>

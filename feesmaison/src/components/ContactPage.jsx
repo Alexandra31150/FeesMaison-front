@@ -4,9 +4,9 @@ import Navbar from './Navbar';
 function ContactPage() {
   return (
     <div className="global">
-      {/* <div className="navbar-contact">
+      <div>
         <Navbar />
-      </div> */}
+      </div>
       <div className="texte-contact">
         <h2>A propos de nous ...</h2>
         <p>Bonjour à tous !</p>

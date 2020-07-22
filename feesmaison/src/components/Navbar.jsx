@@ -1,6 +1,7 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import '../CSS/Navbar.css';
+import ContactPage from './ContactPage';
 
 function Navbar() {
   return (
@@ -16,7 +17,9 @@ function Navbar() {
           Créatrices
         </li>
         <li className="list">
-          Contact
+        <Link to="contact" className="link-nav" style={{ textDecoration: 'none' }}>
+          <a href={ContactPage}>Contact</a>
+        </Link>
         </li>
       </ul>
     </div>
