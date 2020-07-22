@@ -1,0 +1,21 @@
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: #f54949;
+  background-color: #DCE3FA;
+  height: 20px;
+}
+
+.made {
+  text-align: left;
+  /* margin-left: -300px;
+  margin-top: 2px;
+  font-size: 14px;
+  font-style: italic; */
+}
+
+.espace-crea {
+  /*margin-right: -300px;*/
+  text-align: right;
+}
