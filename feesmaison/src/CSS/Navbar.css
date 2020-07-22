@@ -1,0 +1,28 @@
+.navbar-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: #f54949;
+  background-color: #DCE3FA;
+  height: 60px;
+  list-style-type: none;
+}
+
+.link-nav {
+  color: white;
+}
+
+.link-nav:visited {
+  color: white;
+}
+
+.list {
+margin-top: 20px;
+}
+
+.logo {
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 180px;
+  height: 120px;
+}
