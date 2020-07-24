@@ -1,7 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import '../CSS/Navbar.css';
-import ContactPage from './ContactPage';
+// import ContactPage from './ContactPage';
+
+// Barre de navigation avec logo et liens vers differentes page
 
 function Navbar() {
   return (
@@ -17,9 +19,7 @@ function Navbar() {
           Créatrices
         </li>
         <li className="list">
-        <Link to="contact" className="link-nav" style={{ textDecoration: 'none' }}>
-          <a href={ContactPage}>Contact</a>
-        </Link>
+          Contact
         </li>
       </ul>
     </div>

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Product from './Product';
 
+// Permet aux creatrices de poster un produit ( liste visible sur page Product )
+
 class ProductForm extends Component {
   constructor(props) {
     super(props);

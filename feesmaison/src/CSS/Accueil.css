@@ -1,0 +1,9 @@
+.carte-produit {
+  border: 3px solid #A0A0A0;
+  width: auto;
+}
+
+.carte-img {
+  height: 500px;
+  width: 600px;
+}
