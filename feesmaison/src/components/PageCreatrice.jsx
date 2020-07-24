@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Product from './Product';
 
-// Permet aux creatrices de poster un produit ( liste visible sur page Product )
+// Permet aux creatrices de poster un produit
 
 class ProductForm extends Component {
   constructor(props) {
@@ -86,7 +85,6 @@ class ProductForm extends Component {
             </div>
           </fieldset>
         </form>
-        <Product />
       </div>
     );
   }
