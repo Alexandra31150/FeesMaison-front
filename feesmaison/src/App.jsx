@@ -32,10 +32,11 @@ class App extends Component {
         <Router>
           <Switch>
             {/* <Navbar /> */}
-            {/* <PageCreatrice /> */}
+            <Footer />
+            {/* <PageCreatrice />
             <ContactPage />
 
-            {/* <Route path="/" exact>
+            <Route path="/" exact>
               <Accueil
                 name={this.state.name}
                 category={this.state.category}
@@ -43,12 +44,10 @@ class App extends Component {
                 price={this.state.price}
                 description={this.state.description}
               />
-            </Route> */}
+            </Route>
             <Route path="/espace-creatrice" component={PageCreatrice} />
               
-            <Route path="/contact" component={ContactPage} />
-
-            <Footer />
+            <Route path="/contact" component={ContactPage} /> */}
           </Switch>
         </Router>
       </div>

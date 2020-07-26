@@ -1,8 +1,7 @@
 * {
   font-family: sans-serif;
+  flex-wrap: wrap;
 }
-
-/* flex-wrap: wrap */
 
 .navbar-list {
   display: flex;

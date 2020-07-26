@@ -16,10 +16,10 @@ function Navbar() {
           Accueil
         </li>
         <li className="list">
-          Créatrices
+          Contact
         </li>
         <li className="list">
-          Contact
+          Espace créatrice
         </li>
       </ul>
     </div>
