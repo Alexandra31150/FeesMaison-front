@@ -31,8 +31,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            {/* <Navbar /> */}
-            <Footer />
+            <PageCreatrice />
             {/* <PageCreatrice />
             <ContactPage />
 
@@ -41,7 +40,6 @@ class App extends Component {
                 name={this.state.name}
                 category={this.state.category}
                 photo={this.state.photo}
-                price={this.state.price}
                 description={this.state.description}
               />
             </Route>

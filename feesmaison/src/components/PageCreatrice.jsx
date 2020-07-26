@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import '../CSS/PageCreatrice.css';
 
 // Permet aux creatrices de poster un produit
 
@@ -48,17 +49,17 @@ class ProductForm extends Component {
     } = this.state;
     return (
       <div className="ProductForm container-admin">
-        <h2>Formulaire ajout de produit créatrice</h2>
+        <h2 className="titre-crea">Espace créatrice</h2>
         <form onSubmit={this.submitForm}>
           <fieldset>
-            <legend>Ajout produit</legend>
+            <legend className="legende">Ajouter un produit</legend>
             <div className="form-data">
               <label htmlFor="name">Nom du produit</label>
-              <input type="text" name="name" onChange={this.onChange} value={name} />
+              <input className="creaform" type="text" name="name" onChange={this.onChange} value={name} />
             </div>
             <div className="form-data">
               <label htmlFor="category">Catégorie</label>
-              <select type="submit" name="category" onChange={this.onChange} value={category}>
+              <select className="creaform" type="submit" name="category" onChange={this.onChange} value={category}>
                 <option valeur=""> </option>
                 <option valeur="Meuble">Meuble</option>
                 <option valeur="Vêtement enfant">Vêtement enfant</option>
@@ -69,15 +70,15 @@ class ProductForm extends Component {
             </div>
             <div className="form-data">
               <label htmlFor="photo">URL photo</label>
-              <input type="url" name="photo" onChange={this.onChange} value={photo} />
+              <input className="creaform" type="url" name="photo" onChange={this.onChange} value={photo} />
             </div>
             <div className="form-data">
               <label htmlFor="price">Prix</label>
-              <input type="number" name="price" onChange={this.onChange} value={price} />
+              <input className="creaform" type="number" name="price" onChange={this.onChange} value={price} />
             </div>
             <div className="form-data">
               <label htmlFor="description">Description</label>
-              <input type="text" name="description" onChange={this.onChange} value={description} />
+              <input className="creaform" type="text" name="description" onChange={this.onChange} value={description} />
             </div>
             <hr />
             <div className="form-data">
