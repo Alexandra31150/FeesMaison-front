@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import '../CSS/Accueil.css';
+import {Link} from 'react-router-dom';
 
 class Accueil extends Component {
   constructor(props) {
@@ -41,9 +42,11 @@ class Accueil extends Component {
               <p>Catégorie : {this.state.category}</p>
             </div> */}
           <div className="carte-produit">
-            <h3 className="titre-carte">Doudou et balle de préhension</h3>
-            <img src="https://zupimages.net/up/20/30/w484.jpg" alt="doudou vert" className="carte-img"/>
-            <p className="textecategorie">Catégorie : Autre</p>
+            <Link to="/page-produit" className="link-nav" style={{ textDecoration: 'none' }}>
+              <h3 className="titre-carte">Doudou et balle de préhension</h3>
+              <img src="https://zupimages.net/up/20/30/w484.jpg" alt="doudou vert" className="carte-img"/>
+              <p className="textecategorie">Catégorie : Autre</p>
+            </Link>
           </div>
           <div className="carte-produit">
             <h3 className="titre-carte">Meuble coloré</h3>
