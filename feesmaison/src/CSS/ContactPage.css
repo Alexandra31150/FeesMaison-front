@@ -1,3 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+.titre-contact,
+.titrecontact {
+  color: #f54949
+}
+
+.texte-contact, 
+.contact {
+  text-align: center;
+}
+
+.silhouette {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fee1,
+.fee2,
+.fee3 {
+  margin-right: 50px;
+}
+
+.prenom {
+  display: flex;
+  justify-content: center;
+  color: #ff7373;
+  flex-wrap: wrap;
+}
+
 form {
   margin: auto;
   width: 85%;

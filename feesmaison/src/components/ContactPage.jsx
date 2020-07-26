@@ -11,27 +11,27 @@ function ContactPage() {
         <Navbar />
       </div>
       <div className="texte-contact">
-        <h2>A propos de nous ...</h2>
-        <p>Bonjour à tous !</p>
+        <h2 className="titre-contact">A propos de nous ...</h2>
         <p>La couture, le bricolage, la restauration de mobilier, ... , c'est une histoire de famille chez nous.</p>
         <p>Fées Maison est un site qui regroupe nos créations.</p>
         <p>Si certaines vous plaisent, ou si vous souhaitez des renseignements n'hésitez pas à nous contacter, nous vous répondrons avec grand plaisir</p>
       </div>
       <div className="silhouette">
         <div className="fee1">
-          <img src="https://cdn.pixabay.com/photo/2017/09/16/01/20/creature-2754294_960_720.png" alt="fée Marylène" />
-          <span>Marylène</span>
+          <img src="https://zupimages.net/up/20/30/bari.png" alt="fée Marylène" />
+          <span className="prenom">Marylène</span>
         </div>
         <div className="fee2">
-          <img src="https://cdn.pixabay.com/photo/2016/04/11/07/35/fee-1321466_960_720.png" alt="fée Chrystelle" />
-          <span>Chrystelle</span>
+          <img src="https://zupimages.net/up/20/30/2tvr.png" alt="fée Chrystelle" />
+          <span className="prenom">Chrystelle</span>
         </div>
         <div className="fee3">
-          <img src="https://cdn.pixabay.com/photo/2017/09/26/18/06/faery-2789592_960_720.png" alt="fée Valérie" />
-          <span>Valérie</span>
+          <img src="https://zupimages.net/up/20/30/0xy4.png" alt="fée Valérie" />
+          <span className="prenom">Valérie</span>
         </div>
       </div>
-      <div>
+      <div className="box">
+        <h1 className="titrecontact">Contactez-nous</h1>
         <form id="contact">
           <div>
             <input type="text" id="name" name="Nom" required=""/>
@@ -45,13 +45,9 @@ function ContactPage() {
             <textarea name="Message" required></textarea>
             <label>Message</label>
           </div>
-          <input type="submit" id="submitBtn" value="Envoyer" class="bouton" />
+          <input type="submit" id="submitBtn" value="Envoyer" className="bouton" />
         </form>
       </div>
-      <div className="texte-fin-contact">
-        <p>A très bientôt !</p>
-      </div>
-
     </div>
   );
 }

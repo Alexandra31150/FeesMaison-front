@@ -33,7 +33,7 @@ class App extends Component {
           <Switch>
             {/* <Navbar /> */}
             {/* <PageCreatrice /> */}
-            <Accueil />
+            <ContactPage />
 
             {/* <Route path="/" exact>
               <Accueil
