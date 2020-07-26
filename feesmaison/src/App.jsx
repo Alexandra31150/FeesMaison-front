@@ -31,23 +31,37 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Switch>
-            <PageProduit />
-            {/* <PageCreatrice />
-            <ContactPage />
 
             <Route path="/" exact>
+              <Navbar />
               <Accueil
                 name={this.state.name}
                 category={this.state.category}
                 photo={this.state.photo}
                 description={this.state.description}
               />
+              <Footer />
             </Route>
-            <Route path="/espace-creatrice" component={PageCreatrice} />
+
+            <Route path="/page-produit" component={PageProduit} >
+              <Navbar />
+              <PageProduit />
+              <Footer />
+            </Route>
+
+
+            <Route path="/espace-creatrice" component={PageCreatrice}>
+              <Navbar />
+              <PageCreatrice />
+              <Footer />
+            </Route>
               
-            <Route path="/contact" component={ContactPage} /> */}
-          </Switch>
+            <Route path="/contact" component={ContactPage} >
+              <Navbar />
+              <ContactPage />
+              <Footer />
+            </Route>
+
         </Router>
       </div>
     );

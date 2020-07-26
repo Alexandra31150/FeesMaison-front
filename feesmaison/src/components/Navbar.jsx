@@ -16,7 +16,7 @@ function Navbar() {
           Accueil
         </li>
         <li className="list">
-          Contact
+          <a href="">Contact</a>
         </li>
         <li className="list">
           Espace créatrice

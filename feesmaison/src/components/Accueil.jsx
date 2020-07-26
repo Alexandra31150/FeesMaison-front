@@ -33,7 +33,7 @@ class Accueil extends Component {
   render() {
     return (
       <div className="accueil-global">        
-        <h2>Découvrez nos produits ...</h2>
+        <h2 className="titre-acc">Découvrez ci-dessous une partie de nos articles faits maison ...</h2>
           <div className="container-carte">
             {/* <div className="carte-produit">
               <h3>{this.state.name}</h3>

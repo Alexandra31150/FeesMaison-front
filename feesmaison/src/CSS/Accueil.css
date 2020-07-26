@@ -8,6 +8,11 @@
   margin-top: 20px;
 }
 
+.titre-acc{
+  color: #ff7373;
+  text-align: center;
+}
+
 .carte-img {
   height: 400px;
   width: 400px;

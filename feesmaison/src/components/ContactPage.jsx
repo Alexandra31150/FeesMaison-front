@@ -7,9 +7,6 @@ import '../CSS/ContactPage.css';
 function ContactPage() {
   return (
     <div className="global">
-      <div>
-        <Navbar />
-      </div>
       <div className="texte-contact">
         <h2 className="titre-contact">A propos de nous ...</h2>
         <p>La couture, le bricolage, la restauration de mobilier, ... , c'est une histoire de famille chez nous.</p>
