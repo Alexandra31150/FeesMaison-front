@@ -1,0 +1,13 @@
+* {
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+ .produit-global {
+  flex-direction: column;
+  text-align: center;
+ }
+
+ .titre-produit {
+  color: #ff7373;
+ }
+

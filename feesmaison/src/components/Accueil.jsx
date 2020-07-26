@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import axios from 'axios';
 import '../CSS/Accueil.css';
 
@@ -34,10 +32,7 @@ class Accueil extends Component {
 
   render() {
     return (
-      <div className="accueil-global">
-        <div>
-          <Navbar />
-        </div>         
+      <div className="accueil-global">        
         <h2>Découvrez nos produits ...</h2>
           <div className="container-carte">
             {/* <div className="carte-produit">
@@ -76,16 +71,9 @@ class Accueil extends Component {
             <p className="textecategorie">Catégorie : Autre</p>
           </div>
           </div>
-        <div>
-          <Footer />
-        </div> 
       </div>
     )
   }
 }
 
 export default Accueil;
-
-
-// 1 select pour la categorie
-// 1 select pour la créatrice

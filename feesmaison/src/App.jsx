@@ -6,6 +6,7 @@ import PageCreatrice from './components/PageCreatrice';
 import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
 import Accueil from './components/Accueil';
+import PageProduit from './components/PageProduit'
 
 class App extends Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            <Accueil />
+            <PageProduit />
             {/* <PageCreatrice />
             <ContactPage />
 
