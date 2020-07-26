@@ -1,18 +1,29 @@
 * {
   font-family: sans-serif;
+  flex-wrap: wrap;
 }
 
 .carte-produit {
-  border: 3px solid #A0A0A0;
-  width: auto;
+  border: 1px solid #ff7373;
+  margin-top: 20px;
 }
 
 .carte-img {
-  height: 500px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
 }
 
 .container-carte {
   display: flex;
-  width: auto;
+  justify-content: space-around;
+}
+
+.titre-carte {
+  color: #ff7373;
+  text-align: center;
+}
+
+.textecategorie {
+  margin-left: 5px;
+  font-size: 15px;
 }

@@ -40,26 +40,40 @@ class Accueil extends Component {
         </div>         
         <h2>Découvrez nos produits ...</h2>
           <div className="container-carte">
-            <div className="carte-produit">
+            {/* <div className="carte-produit">
               <h3>{this.state.name}</h3>
               <img src={this.state.photo} alt={this.state.name} />
-              <p>{this.state.category}</p>
-            </div>
+              <p>Catégorie : {this.state.category}</p>
+            </div> */}
           <div className="carte-produit">
-            <h3>Doudou et balle de préhension</h3>
+            <h3 className="titre-carte">Doudou et balle de préhension</h3>
             <img src="https://zupimages.net/up/20/30/w484.jpg" alt="doudou vert" className="carte-img"/>
+            <p className="textecategorie">Catégorie : Autre</p>
           </div>
           <div className="carte-produit">
-            <h3>Meuble coloré</h3>
+            <h3 className="titre-carte">Meuble coloré</h3>
             <img src="https://zupimages.net/up/20/30/5z61.jpg" alt="meucle colore" className="carte-img" />
+            <p className="textecategorie">Catégorie : Meuble</p>
           </div>
           <div className="carte-produit">
-            <h3>Fauteuil rénové</h3>
+            <h3 className="titre-carte">Fauteuil rénové</h3>
             <img src="https://zupimages.net/up/20/30/bmsj.jpg" alt="fauteuil" className="carte-img"/>
+            <p className="textecategorie">Catégorie : Meuble</p>
           </div>
           <div className="carte-produit">
-            <h3>Cotons démaquillants</h3>
+            <h3 className="titre-carte">Cotons démaquillants</h3>
             <img src="https://zupimages.net/up/20/30/h2il.jpg" alt="cotons démaquillants" className="carte-img"/>
+            <p className="textecategorie">Catégorie : Autre</p>
+          </div>
+          <div className="carte-produit">
+            <h3 className="titre-carte">Sac à main</h3>
+            <img src="https://zupimages.net/up/20/30/lz4k.jpg" alt="sac a main" className="carte-img"/>
+            <p className="textecategorie">Catégorie : Accessoire</p>
+          </div>
+          <div className="carte-produit">
+            <h3 className="titre-carte">Doudou éléphant</h3>
+            <img src="https://zupimages.net/up/20/30/npam.jpg" alt="doudou elephant" className="carte-img"/>
+            <p className="textecategorie">Catégorie : Autre</p>
           </div>
           </div>
         <div>

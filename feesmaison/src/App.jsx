@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            <PageCreatrice />
+            <Accueil />
             {/* <PageCreatrice />
             <ContactPage />
 
